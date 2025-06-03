@@ -32,7 +32,7 @@ export default function FilterBar() {
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={styles.container}
     >
-      <TouchableOpacity 
+      {/* <TouchableOpacity 
         style={[styles.filterButton, selectedFolder !== null && styles.activeFilter]}
         onPress={() => setSelectedFolder(null)}
       >
@@ -50,7 +50,7 @@ export default function FilterBar() {
           Type
         </Text>
         <ChevronDown size={16} color={selectedType !== null ? colors.primary : colors.gray} />
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </ScrollView>
   );
 }

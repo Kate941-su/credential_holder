@@ -1,6 +1,6 @@
 export type ItemType = 'login' | 'card' | 'identity' | 'secure-note';
 
-export interface Item {
+export type Item = {
   id: string;
   name: string;
   type: ItemType;

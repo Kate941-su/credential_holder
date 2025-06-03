@@ -55,7 +55,7 @@ export default function VaultScreen() {
   return (
     <View style={styles.container}>
       <SearchBar />
-      <FilterBar />
+      {/* <FilterBar /> */}
       
       <View style={styles.listHeader}>
         <Text style={styles.listTitle}>

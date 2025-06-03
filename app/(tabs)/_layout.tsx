@@ -38,17 +38,24 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <RefreshCw size={22} color={color} />,
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="send"
         options={{
           title: "Send",
           tabBarIcon: ({ color }) => <Send size={22} color={color} />,
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="settings"
         options={{
           title: "Settings",
+          tabBarIcon: ({ color }) => <Settings size={22} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="test"
+        options={{
+          title: "Test",
           tabBarIcon: ({ color }) => <Settings size={22} color={color} />,
         }}
       />
