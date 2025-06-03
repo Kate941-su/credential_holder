@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Plus, Filter } from 'lucide-react-native';
+import { Plus, Filter, CircleIcon } from 'lucide-react-native';
 import { useItemStore } from '@/store/itemStore';
 import ItemCard from '@/components/ItemCard';
 import SearchBar from '@/components/SearchBar';
 import FilterBar from '@/components/FilterBar';
 import colors from '@/constants/colors';
 import { Item } from '@/types/item';
+import CircleIconView from '@/components/CircleIcon';
 
 export default function VaultScreen() {
   const router = useRouter();
